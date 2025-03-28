@@ -8,12 +8,13 @@
             "name": ".NET Core Launch (console)",
             "type": "coreclr",
             "request": "launch",
+            "requireExactSource": false,
             "preLaunchTask": "build",
             "program": "${workspaceFolder}/TheatricalPlayersRefactoringKata.Tests/bin/Debug/net6.0/TheatricalPlayersRefactoringKata.Tests.dll",
             "args": [],
             "cwd": "${workspaceFolder}/TheatricalPlayersRefactoringKata.Tests",
             "console": "internalConsole",
-            "stopAtEntry": false
+            "stopAtEntry": true
         },
         {
             "name": ".NET Core Attach",

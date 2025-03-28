@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?><html xmlns:tp="http://schemas.datacontract.org/2004/07/Microsoft.VisualStudio.TestPlatform.Extensions.HtmlLogger.ObjectModel" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><body><h1>Test run details</h1><div class="summary"><div class="block"><span>Total tests</span><div class="total-tests">16</div><br /></div><div class="block"><span>Passed  : </span><span class="passedTests">15</span><br /><span>Failed  : </span><span class="failedTests">1</span><br /><span>Skipped : </span><span class="skippedTests">0</span><br /></div><div class="block"><span>Pass percentage</span><div class="pass-percentage">93 %</div><br /></div><div class="block"><span>Run duration</span><div class="test-run-time">969ms</div><br /></div><br /></div><h2>Failed Results</h2><div class="list-row" onclick="ToggleClass('339079638-failedResult')">C:\Users\roliv\Documents\Testes\teste-backend-v3\TheatricalPlayersRefactoringKata.Tests\bin\Debug\net6.0\TheatricalPlayersRefactoringKata.Tests.dll</div><div class="inner-row" Id="339079638-failedResult" style="display:block;"><div class="leaf-division"><div><span class="fail">✘</span><span> TheatricalPlayersRefactoringKata.Tests.StatementPrinterTests.TestTextStatementExample​</span><div class="duration"><span>271ms</span><br /></div></div><div class="error-info">
+    Error: <span class="error-message"><pre>ApprovalTests.Core.Exceptions.ApprovalMismatchException : Failed Approval: Received file C:\Users\roliv\Documents\Testes\teste-backend-v3\TheatricalPlayersRefactoringKata.Tests\StatementPrinterTests.TestTextStatementExample.received.txt does not match approved file C:\Users\roliv\Documents\Testes\teste-backend-v3\TheatricalPlayersRefactoringKata.Tests\StatementPrinterTests.TestTextStatementExample.approved.txt.</pre></span><br />
+    Stack trace: <span class="error-stack-trace"><pre>   at ApprovalTests.Approvers.FileApprover.Fail() in C:\projects\approvaltests-net\src\ApprovalTests\Approvers\FileApprover.cs:line 60
+   at ApprovalTests.Core.Approver.Verify(IApprovalApprover approver, IApprovalFailureReporter reporter) in C:\projects\approvaltests-net\src\ApprovalTests\Core\Approver.cs:line 21
+   at ApprovalTests.Approvals.Verify(IApprovalApprover approver, IApprovalFailureReporter reporter) in C:\projects\approvaltests-net\src\ApprovalTests\Approvals.cs:line 71
+   at ApprovalTests.Approvals.Verify(IApprovalWriter writer, IApprovalNamer namer, IApprovalFailureReporter reporter) in C:\projects\approvaltests-net\src\ApprovalTests\Approvals.cs:line 52
+   at ApprovalTests.Approvals.Verify(IApprovalWriter writer) in C:\projects\approvaltests-net\src\ApprovalTests\Approvals.cs:line 124
+   at ApprovalTests.Approvals.VerifyWithExtension(String text, String fileExtensionWithDot, Func`2 scrubber) in C:\projects\approvaltests-net\src\ApprovalTests\Approvals.cs:line 189
+   at ApprovalTests.Approvals.Verify(String text, Func`2 scrubber) in C:\projects\approvaltests-net\src\ApprovalTests\Approvals.cs:line 176
+   at TheatricalPlayersRefactoringKata.Tests.StatementPrinterTests.TestTextStatementExample() in C:\Users\roliv\Documents\Testes\teste-backend-v3\TheatricalPlayersRefactoringKata.Tests\StatementPrinterTests.cs:line 63</pre></span><br /></div></div></div><h2>All Results</h2><div class="list-row" onclick="ToggleClass('339079638')">C:\Users\roliv\Documents\Testes\teste-backend-v3\TheatricalPlayersRefactoringKata.Tests\bin\Debug\net6.0\TheatricalPlayersRefactoringKata.Tests.dll</div><div class="inner-row" Id="339079638" style="display:none;"><div class="leaf-division"><div><span class="pass">✔</span><span> TheatricalPlayersRefactoringKata.Tests.TragedyCalculatorTests.CalculateAdditionalCredits_AlwaysZero​</span><div class="duration"><span>3ms</span><br /></div></div><div class="error-info" /></div><div class="leaf-division"><div><span class="pass">✔</span><span> TheatricalPlayersRefactoringKata.Tests.XmlFormatterTests.Format_ProducesValidXml​</span><div class="duration"><span>4ms</span><br /></div></div><div class="error-info" /></div><div class="leaf-division"><div><span class="pass">✔</span><span> TheatricalPlayersRefactoringKata.Tests.ComedyCalculatorTests.CalculateAmount_VariousAudience_ReturnsCorrectAmount(audience: 20, expected: 360)​</span><div class="duration"><span>3ms</span><br /></div></div><div class="error-info" /></div><div class="leaf-division"><div><span class="pass">✔</span><span> TheatricalPlayersRefactoringKata.Tests.InvoiceCalculatorTests.ProcessInvoice_CalculatesTotalsCorrectly​</span><div class="duration"><span>3ms</span><br /></div></div><div class="error-info" /></div><div class="leaf-division"><div><span class="pass">✔</span><span> TheatricalPlayersRefactoringKata.Tests.HistoryCalculatorTests.CalculateAmount_CombinesTragedyAndComedy​</span><div class="duration"><span>3ms</span><br /></div></div><div class="error-info" /></div><div class="leaf-division"><div><span class="pass">✔</span><span> TheatricalPlayersRefactoringKata.Tests.ComedyCalculatorTests.CalculateAmount_VariousAudience_ReturnsCorrectAmount(audience: 30, expected: 540)​</span><div class="duration"><span>&lt; 1ms</span><br /></div></div><div class="error-info" /></div><div class="leaf-division"><div><span class="pass">✔</span><span> TheatricalPlayersRefactoringKata.Tests.ComedyCalculatorTests.CalculateAmount_VariousAudience_ReturnsCorrectAmount(audience: 21, expected: 468)​</span><div class="duration"><span>&lt; 1ms</span><br /></div></div><div class="error-info" /></div><div class="leaf-division"><div><span class="pass">✔</span><span> TheatricalPlayersRefactoringKata.Tests.TragedyCalculatorTests.CalculateAmount_VariousAudience_ReturnsCorrectAmount(audience: 31, expected: 310)​</span><div class="duration"><span>&lt; 1ms</span><br /></div></div><div class="error-info" /></div><div class="leaf-division"><div><span class="pass">✔</span><span> TheatricalPlayersRefactoringKata.Tests.TragedyCalculatorTests.CalculateAmount_VariousAudience_ReturnsCorrectAmount(audience: 30, expected: 300)​</span><div class="duration"><span>&lt; 1ms</span><br /></div></div><div class="error-info" /></div><div class="leaf-division"><div><span class="pass">✔</span><span> TheatricalPlayersRefactoringKata.Tests.TragedyCalculatorTests.CalculateAmount_VariousAudience_ReturnsCorrectAmount(audience: 40, expected: 400)​</span><div class="duration"><span>&lt; 1ms</span><br /></div></div><div class="error-info" /></div><div class="leaf-division"><div><span class="pass">✔</span><span> TheatricalPlayersRefactoringKata.Tests.ComedyCalculatorTests.CalculateAdditionalCredits_ReturnsFifthOfAudience(audience: 9, expected: 1)​</span><div class="duration"><span>&lt; 1ms</span><br /></div></div><div class="error-info" /></div><div class="leaf-division"><div><span class="pass">✔</span><span> TheatricalPlayersRefactoringKata.Tests.ComedyCalculatorTests.CalculateAdditionalCredits_ReturnsFifthOfAudience(audience: 5, expected: 1)​</span><div class="duration"><span>&lt; 1ms</span><br /></div></div><div class="error-info" /></div><div class="leaf-division"><div><span class="pass">✔</span><span> TheatricalPlayersRefactoringKata.Tests.ComedyCalculatorTests.CalculateAdditionalCredits_ReturnsFifthOfAudience(audience: 10, expected: 2)​</span><div class="duration"><span>&lt; 1ms</span><br /></div></div><div class="error-info" /></div><div class="leaf-division"><div><span class="pass">✔</span><span> TheatricalPlayersRefactoringKata.Tests.TextFormatterTests.Format_ProducesCorrectStructure​</span><div class="duration"><span>9ms</span><br /></div></div><div class="error-info" /></div><div class="leaf-division"><div><span class="fail">✘</span><span> TheatricalPlayersRefactoringKata.Tests.StatementPrinterTests.TestTextStatementExample​</span><div class="duration"><span>271ms</span><br /></div></div><div class="error-info">
+    Error: <span class="error-message"><pre>ApprovalTests.Core.Exceptions.ApprovalMismatchException : Failed Approval: Received file C:\Users\roliv\Documents\Testes\teste-backend-v3\TheatricalPlayersRefactoringKata.Tests\StatementPrinterTests.TestTextStatementExample.received.txt does not match approved file C:\Users\roliv\Documents\Testes\teste-backend-v3\TheatricalPlayersRefactoringKata.Tests\StatementPrinterTests.TestTextStatementExample.approved.txt.</pre></span><br />
+    Stack trace: <span class="error-stack-trace"><pre>   at ApprovalTests.Approvers.FileApprover.Fail() in C:\projects\approvaltests-net\src\ApprovalTests\Approvers\FileApprover.cs:line 60
+   at ApprovalTests.Core.Approver.Verify(IApprovalApprover approver, IApprovalFailureReporter reporter) in C:\projects\approvaltests-net\src\ApprovalTests\Core\Approver.cs:line 21
+   at ApprovalTests.Approvals.Verify(IApprovalApprover approver, IApprovalFailureReporter reporter) in C:\projects\approvaltests-net\src\ApprovalTests\Approvals.cs:line 71
+   at ApprovalTests.Approvals.Verify(IApprovalWriter writer, IApprovalNamer namer, IApprovalFailureReporter reporter) in C:\projects\approvaltests-net\src\ApprovalTests\Approvals.cs:line 52
+   at ApprovalTests.Approvals.Verify(IApprovalWriter writer) in C:\projects\approvaltests-net\src\ApprovalTests\Approvals.cs:line 124
+   at ApprovalTests.Approvals.VerifyWithExtension(String text, String fileExtensionWithDot, Func`2 scrubber) in C:\projects\approvaltests-net\src\ApprovalTests\Approvals.cs:line 189
+   at ApprovalTests.Approvals.Verify(String text, Func`2 scrubber) in C:\projects\approvaltests-net\src\ApprovalTests\Approvals.cs:line 176
+   at TheatricalPlayersRefactoringKata.Tests.StatementPrinterTests.TestTextStatementExample() in C:\Users\roliv\Documents\Testes\teste-backend-v3\TheatricalPlayersRefactoringKata.Tests\StatementPrinterTests.cs:line 63</pre></span><br /></div></div><div class="leaf-division"><div><span class="pass">✔</span><span> TheatricalPlayersRefactoringKata.Tests.StatementPrinterTests.TestStatementExampleLegacy​</span><div class="duration"><span>7ms</span><br /></div></div><div class="error-info" /></div></div><div><h2>Informational messages</h2><span>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.3+1b45f5407b (64-bit .NET 6.0.28)</span><br /><span>[xUnit.net 00:00:00.25]   Discovering: TheatricalPlayersRefactoringKata.Tests</span><br /><span>[xUnit.net 00:00:00.29]   Discovered:  TheatricalPlayersRefactoringKata.Tests</span><br /><span>[xUnit.net 00:00:00.29]   Starting:    TheatricalPlayersRefactoringKata.Tests</span><br /><span>[xUnit.net 00:00:00.60]       ApprovalTests.Core.Exceptions.ApprovalMismatchException : Failed Approval: Received file C:\Users\roliv\Documents\Testes\teste-backend-v3\TheatricalPlayersRefactoringKata.Tests\StatementPrinterTests.TestTextStatementExample.received.txt does not match approved file C:\Users\roliv\Documents\Testes\teste-backend-v3\TheatricalPlayersRefactoringKata.Tests\StatementPrinterTests.TestTextStatementExample.approved.txt.</span><br /><span>[xUnit.net 00:00:00.60]       Stack Trace:</span><br /><span>[xUnit.net 00:00:00.61]         C:\projects\approvaltests-net\src\ApprovalTests\Approvers\FileApprover.cs(60,0): at ApprovalTests.Approvers.FileApprover.Fail()</span><br /><span>[xUnit.net 00:00:00.61]         C:\projects\approvaltests-net\src\ApprovalTests\Core\Approver.cs(21,0): at ApprovalTests.Core.Approver.Verify(IApprovalApprover approver, IApprovalFailureReporter reporter)</span><br /><span>[xUnit.net 00:00:00.61]         C:\projects\approvaltests-net\src\ApprovalTests\Approvals.cs(71,0): at ApprovalTests.Approvals.Verify(IApprovalApprover approver, IApprovalFailureReporter reporter)</span><br /><span>[xUnit.net 00:00:00.61]         C:\projects\approvaltests-net\src\ApprovalTests\Approvals.cs(52,0): at ApprovalTests.Approvals.Verify(IApprovalWriter writer, IApprovalNamer namer, IApprovalFailureReporter reporter)</span><br /><span>[xUnit.net 00:00:00.61]         C:\projects\approvaltests-net\src\ApprovalTests\Approvals.cs(124,0): at ApprovalTests.Approvals.Verify(IApprovalWriter writer)</span><br /><span>[xUnit.net 00:00:00.61]         C:\projects\approvaltests-net\src\ApprovalTests\Approvals.cs(189,0): at ApprovalTests.Approvals.VerifyWithExtension(String text, String fileExtensionWithDot, Func`2 scrubber)</span><br /><span>[xUnit.net 00:00:00.61]         C:\projects\approvaltests-net\src\ApprovalTests\Approvals.cs(176,0): at ApprovalTests.Approvals.Verify(String text, Func`2 scrubber)</span><br /><span>[xUnit.net 00:00:00.61]         C:\Users\roliv\Documents\Testes\teste-backend-v3\TheatricalPlayersRefactoringKata.Tests\StatementPrinterTests.cs(63,0): at TheatricalPlayersRefactoringKata.Tests.StatementPrinterTests.TestTextStatementExample()</span><br /><span>[xUnit.net 00:00:00.61]   Finished:    TheatricalPlayersRefactoringKata.Tests</span><br /></div><div><h2>Error and Warning messages</h2><span>[xUnit.net 00:00:00.60]     TheatricalPlayersRefactoringKata.Tests.StatementPrinterTests.TestTextStatementExample [FAIL]</span><br /></div></body><script language="javascript">
+        function ToggleClass(id) {
+        var elem = document.getElementById(id);
+        if (elem.style.display == "none") {
+        elem.style.display = "block";
+        }
+        else {
+        elem.style.display = "none";
+        }
+        }
+      </script><style>
+        body { font-family: Calibri, Verdana, Arial, sans-serif; background-color: White; color: Black; }
+        h2 {
+        margin-top: 15px;
+        margin-bottom:10px;
+        }
+        pre {
+        white-space: pre-wrap;
+        }
+        .summary {font-family:monospace;
+        display: -webkit-flex; /* Safari */
+        -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+        display: flex;
+        flex-wrap: wrap;
+        }
+        .row {
+        border: 2px solid #ffffff;
+        width:100%;
+        cursor:pointer;
+        background-color:#d7e9fa;
+        }
+        .list-row {
+        border: 2px solid #ffffff;
+        width:100%;
+        cursor:pointer;
+        background-color:#ffffff;
+        }
+        .inner-row{
+        border: 2px solid #ffffff;
+        padding-left:1%;
+        margin-left:1%;
+        background-color:#ffffff;
+        }
+        .block{
+        width : 150px;
+        }
+        .leaf-division{
+        border: 2px solid #ffffff;
+        background-color:#e6eff7;
+        }
+        .pass { color: #0c0; }
+        .fail { color: #c00; }
+        .error-message { color : brown; }
+        .error-stack-trace { color: brown; }
+        .duration {float:right;padding-right:1%;}
+        .total-tests { font-size : 30px}
+        .test-run-time { font-size : 30px}
+        .pass-percentage { font-size : 30px}
+        .error-info{
+        margin-left:16px;
+        }
+      </style></html>
